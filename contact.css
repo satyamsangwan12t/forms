@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(90deg,#59540e 0%,#594b0e 30%,#e6c762 30%,#e6c762 100%);
+    overflow: auto;
+}
+.contactus{
+     width: 100%;
+   
+}
+.contactus .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+
+
+
+
+.contact-form{
+    padding: 40px;
+    width: 50%;
+    float:left;
+    margin:10px 70px ;
+    background: rgb(233, 220, 186); 
+    box-shadow: 0 5px 35px rgb(233, 220, 186);
+}
+.contact-info{
+    padding: 20px;
+   
+  margin-left:980px;
+  margin-right:90px;
+    background: rgb(172, 141, 62); 
+    box-shadow: 0 5px 35px rgb(233, 220, 186);
+}
+
+.contact-form h3{
+    color: saddlebrown;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+   
+}
+
+.row50{
+    display: inline-flex;
+    gap: 50px;
+    width:100%;
+   
+}
+
+button{
+    font-weight: bold;
+    padding:10px 0px;
+   
+    border:none;
+    background-color: rgb(172, 141, 62); ;
+}
+.inputbox{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inputbox span{
+    flex-direction: row;
+    color: solid #594b0e;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inputbox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #594b0e;
+}
+.inputbox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #594b0e;
+    resize: none;
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+
+.contact-info h3{
+    color: #fff;
+}
+.contact-info .infobox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;    
+}
+.contact-info .infobox div span{
+    min-width: 40px;
+    color: #fff;
+    background: #594b0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+.contact-info .infobox div p{
+    color:#fff;
+    font-size: 1.1em;
+
+}
+.contact-info .infobox div a{
+    color:#fff;
+    text-decoration: none;
+}
+.sci{
+    margin-top: 40px;
+    display: flex;
+
+}
+.sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+.sci li a{
+    color: #fff;
+    font-size: 2em;
+    color: #594b0e;
+}
+
+iframe{
+    margin:10px 0px;
+    width: 450px;
+    height:250px;
+
+}
+
+
